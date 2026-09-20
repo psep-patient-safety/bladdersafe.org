@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "updog": "deno run --allow-read --allow-write --allow-run src/tasks.ts build media links"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

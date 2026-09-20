@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentations</title>
+</head>
+<body>
+  <div>
+    <style>
+      .card-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+
+        border: 1px solid black;
+        border-radius: 25px;
+        margin: 1em auto;
+        padding: 1em;
+      }
+      .card {
+        border: 1px dashed var(--tweak-line-block-line-color, blue);
+        border-radius: 25px;
+        margin: 1em auto;
+        width: 27%;
+        padding: 0.5em 1em;
+        word-break: break-word;
+        & .title {
+          font-weight: bold;
+        }
+        & .presenter {
+          font-style: italic;
+        }
+        & .format-list {
+          padding-block-start: 2em;
+        }
+        & [data-item="pdf"]::before {
+          content: '[PDF] ';
+        }
+        & [data-item="powerpoint"]::before {
+          content: '[PPT/X] ';
+        }
+      }
+      .sqs-block-code .sqs-block-content :first-child {
+        margin-top: inherit;
+      }
+      .sqs-block-code .sqs-block-content :last-child {
+        margin-bottom: inherit;
+      }
+    </style>
+    <div class="card-wrapper">
+      <div class="card">
+        <div class="title">Bladder Scan (Intermittent Straight Catheter) Algorithm</div>
+        <div class="presenter">Mohamad Fakih, MD, MPH</div>
+        <div class="format-list"><div data-list="format-list" data-item="pdf">bladder_scanning_0.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Ensuring Sustainability for Safety and Quality Improvement Efforts</div>
+        <div class="presenter">Mohamad Fakih, MD, MPH</div>
+        <div class="presenter">Sarah Krein, RN, PhD</div>
+        <div class="format-list"><div data-list="format-list" data-item="powerpoint">sustainability.pptx</div><div data-list="format-list" data-item="pdf">sustainability.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Controversies in CAUTI Prevention</div>
+        <div class="presenter">Mohamad Fakih, MD, MPH</div>
+        <div class="format-list"><div data-list="format-list" data-item="pdf">controversies_in_cauti_prevention.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Engaging Clinicians in CAUTI Prevention: Tales from the Trenches</div>
+        <div class="presenter">Sanjay Saint, MD, MPH</div>
+        <div class="format-list"><div data-list="format-list" data-item="powerpoint">syllabus_saint_mha_may_3_engaging_clinicians_4-24-12.pptx</div><div data-list="format-list" data-item="pdf">syllabus_saint_mha_may_3_engaging_clinicians_4-24-12.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Appropriate Urinary Catheter Use and Management: Nursing Education Material</div>
+        <div class="presenter">Mohamad Fakih, MD, MPH</div>
+        <div class="format-list"><div data-list="format-list" data-item="powerpoint">section_t_nursing_appropriateurinary_catheter_use_and_management_0.ppt</div><div data-list="format-list" data-item="pdf">section_t_nursing_appropriateurinary_catheter_use_and_management_0.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Preventing Catheter-Associated Urinary Tract Infection: Translating Research Into Practice</div>
+        <div class="presenter">Sanjay Saint, MD, MPH</div>
+        <div class="format-list"><div data-list="format-list" data-item="powerpoint">saint_trip_12-20-10.pptx</div><div data-list="format-list" data-item="pdf">saint_trip_12-20-10.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Implementing Strategies to Reduce Hospital-Acquired Catheter-Associated Urinary Tract Infection</div>
+        <div class="presenter">Jennifer Meddings, MD, MSc</div>
+        <div class="format-list"><div data-list="format-list" data-item="pdf">meddings_cauti_june2010_wocntalk_june15_final_0.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Targeted Infection Prevention Program Study: The Infectious Disease Process & Chain of Cross Transmission</div>
+        <div class="presenter">Ruth Ann Rye, RN, BS</div>
+        <div class="presenter">Russ Olmsted, MPH, CIC</div>
+        <div class="format-list"><div data-list="format-list" data-item="powerpoint">module_2_chain_of_trans.ppt</div><div data-list="format-list" data-item="pdf">module_2_chain_of_trans.ppt</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Outcome Data: Application of NHSN CAUTI Criteria</div>
+        <div class="presenter">On the Cusp: Stop HAI</div>
+        <div class="format-list"><div data-list="format-list" data-item="pdf">bridson_lassiter_cauti_training_052912.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Focusing on Appropriate Catheter Insertion</div>
+        <div class="presenter">Milisa Manojlovich PhD, RN, CCRN</div>
+        <div class="presenter">Sarah Krein, PhD, RN</div>
+        <div class="format-list"><div data-list="format-list" data-item="pdf">focusing_on_appropriate_catheter_insertion.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Catheter-Associated Urinary Tract Infection (CAUTI): Progress Toward Zero</div>
+        <div class="presenter">Jennifer Meddings, MD, MSc</div>
+        <div class="format-list"><div data-list="format-list" data-item="pdf">2205_meddings_cauti_progress_toward_zero_june4_final.pdf</div></div>
+      </div>
+      <div class="card">
+        <div class="title">Preventing Catheter-Associated Urinary Tract Infection: Disrupting the Lifecycle of the Urinary Catheter</div>
+        <div class="presenter">Jennifer A. Meddings, MD, MSc</div>
+        <div class="format-list"><div data-list="format-list" data-item="pdf">2600_meddings_disruptinglifecycleofuc_june4_2012_final.pdf</div></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,303 @@
+[
+  {
+    "html": "<span>In order to make sure that every member of the team is clear about the definitions that will be used, we have provided&nbsp;</span>a list of key terms<span>&nbsp;along with commonly used definitions for each term. Of particular note is the distinction between symptomatic UTI vs. asymptomatic UTI (or, ASB).</span>",
+    "section": "overview",
+    "sectionOrder": 1,
+    "oldTabOrder": 1,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<span>Additionally, we define both the process (also known as \"intermediate outcome”) measures as well as the clinically-relevant outcome measures that will be used to evaluate the program.</span><br><span>​</span><br><span>These definitions were provided to us from the North Carolina Center for Hospital Quality and Patient Safety, Centers for Disease Control and Prevention (CDC), and from a toolkit used by the Michigan Health and Hospital Association written by Mohamad G. Fakih, MD, MPH, Sanjay Saint, MD, MPH, Sarah Krein, RN, PhD., and Russ Olmsted, MPH, CIC. &nbsp;We have modified the definitions and the material as appropriate,&nbsp;</span><a href=\"https://academic.oup.com/cid/article/40/5/643/363229/Infectious-Diseases-Society-of-America-Guidelines\" target=\"_blank\">based on the literature</a><span>.<br>​</span><br><span>Finally, we also provide recent material and&nbsp;</span>definitions used by the CDC’s National Healthcare Safety Network (NHSN)<span>&nbsp;as a reference source.</span>",
+    "section": "overview",
+    "sectionOrder": 2,
+    "oldTabOrder": 1,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "Given the important clinical and economic consequences of catheter-associated urinary tract infection (CAUTI), researchers across the world have attempted&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18171256\" target=\"_blank\">various methods</a>&nbsp;to prevent this common, costly, and&nbsp; morbid patient safety problem. In this section, we summarize the evidence supporting the use of several practices &nbsp;to prevent CAUTI.<br><br>Between October 2008 and July 2010, at least 4 guidelines have been published from various organizations such as the&nbsp;<a href=\"https://www.shea-online.org/\" target=\"_blank\"><span>﻿</span></a><a href=\"https://www.shea-online.org/index.php/practice-resources/41-current-guidelines/417-compendium-of-strategies-to-prevent-healthcare-associated-infections-in-acute-care-hospitals-2014-update\" target=\"_blank\">Society for Healthcare Epidemiology of America (SHEA)</a><span>﻿</span>, the&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20156062\" target=\"_blank\">Centers for Disease Control and Prevention (CDC)</a>, the&nbsp;<a href=\"http://www.apic.org/resource_/eliminationguideform/c0790db8-2aca-4179-a7ae-676c27592de2/file/apic-cauti-guide.pdf\" target=\"_blank\">Association for Professionals in Infection Control (APIC)</a>, and the<a href=\"https://academic.oup.com/cid/article/50/5/625/324341/Diagnosis-Prevention-and-Treatment-of-Catheter\" target=\"_blank\">&nbsp;Infectious Diseases Society of America (IDSA)</a>.&nbsp;&nbsp; Fortunately, members of our Ann Arbor VA Medical Center/University of Michigan Patient Safety Research group have been involved in the development of most of these guidelines.<br><br>While there are, of course, some differences between the different guidelines, there are several key areas of overlap. We provide below a concise summary of the recommended practices used to prevent CAUTI using the memory aide: \"<strong>ABCDE</strong>”<ul><li><strong><em>A</em></strong><em>dherence to general infection control principles (e.g., hand hygiene, surveillance and feedback, aseptic insertion, proper maintenance, education) is important</em></li><li><strong><em>B</em></strong><em>ladder ultrasound may avoid indwelling catheterization</em></li><li><strong><em>C</em></strong><em>ondom catheters or other alternatives to an indwelling catheter such as intermittent catheterization should be considered in appropriate patients</em></li><li><strong><em>D</em></strong><em>o not use the indwelling catheter unless you must!</em></li><li><strong><em>E</em></strong><em>arly removal of the catheter using a reminder, stop-order, or nurse-initiated removal protocol is warranted</em></li></ul><br>​Of the above,&nbsp;<strong>A</strong>,&nbsp;<strong>D</strong>, and&nbsp;<strong>E</strong>&nbsp;are the most important.",
+    "section": "prevention",
+    "sectionOrder": 1,
+    "oldTabOrder": 1,
+    "oldSectionOrder": 2
+  },
+  {
+    "html": "Urinary tract infection represents almost 40% of all healthcare-associated infections, with the vast majority due to the indwelling urinary catheter. &nbsp;<strong>Over 900,000 patients develop a catheter-associated urinary tract infection (CAUTI) in a U.S. hospital each year.</strong>&nbsp;<strong>&nbsp;</strong>Urinary catheter-related infection&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10679141\" target=\"_blank\">leads to substantial morbidity</a>. The incidence of bacteriuria in catheterized patients is about 5% per day.&nbsp; Among patients with bacteriuria, 10 to 20% will develop symptoms of local infection, while 1 to 4% will develop bloodstream infection. The urinary tract is implicated as the source in 11 to 40% of hospital-acquired bacteremic episodes.<br><br>The presentation of catheter-associated infection varies from asymptomatic bacteriuria to overwhelming sepsis and even&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7110215\" target=\"_blank\">death</a>.&nbsp; Clinical manifestations of CAUTI may include such local symptoms as lower abdominal discomfort or flank pain, or systemic symptoms such as nausea, vomiting, and fever. Patients with bloodstream infection may present with fever, confusion, and hypotension.<br><br>A key first step leading to CAUTI is the colonization of the catheter with organisms.&nbsp; Indeed, urinary catheters readily develop&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12848477\" target=\"_blank\">biofilm</a>&nbsp;– a collection of microbial organisms on a surface that is surrounded by an extracellular matrix – on their inner and outer surfaces once they are inserted. Such biofilm provides a protective environment for microorganisms.<br><br>Many of the infectious complications of the urinary catheter&nbsp;<a href=\"http://archinte.ama-assn.org/cgi/content/full/159/8/800\" target=\"_blank\">could be prevented</a>&nbsp;by using the catheter only when necessary and promptly removing it when no longer needed.",
+    "section": "infectious-comp",
+    "sectionOrder": 1,
+    "oldTabOrder": 1,
+    "oldSectionOrder": 3
+  },
+  {
+    "html": "Over five decades ago, the late Dr. Paul Beeson persuasively&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/13498030\" target=\"_blank\">argued against the routine use</a>&nbsp;of indwelling urinary catheters in hospitalized patients. His advice remains relevant today.&nbsp; While these devices provide important benefits in some patients, they are also the primary risk factor for catheter-associated urinary tract infection (CAUTI).&nbsp; Indwelling urinary catheters, however, also lead to significant non-infectious complications. Perhaps most importantly, they have the practical effect of restricting patients in&nbsp;<a href=\"http://www.annals.org/content/137/2/125.long\" target=\"_blank\">what some consider a \"one-point” restraint</a>, raising serious safety and ethical concerns analogous to those noted a few decades ago with \"four-point\" (or limb) restraints.<br><br>Urinary catheters cause patient discomfort.&nbsp;&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10591242\" target=\"_blank\">In one prospective study,</a>&nbsp;for example, 42% of catheterized patients report the indwelling catheter was uncomfortable, 48% complained that it was painful, and 61% noted that it restricted their activities of daily living.<br><br>Thus, for some patients urinary catheters operate as a physical restraint, tantamount to binding them to the bed, substantially and unnecessarily limiting their ability to function freely and with dignity.&nbsp; Restricted activity not only reduces patient autonomy, it also promotes other patient safety problems, such as venous thromboembolism, deconditioning, and pressure ulcers.<br>​<br>In short, there are compelling reasons to limit indwelling urinary catheterization because of both non-infectious and infectious complications. &nbsp;&nbsp;",
+    "section": "non-infectious-comp",
+    "sectionOrder": 1,
+    "oldTabOrder": 1,
+    "oldSectionOrder": 4
+  },
+  {
+    "html": "<span>The&nbsp;</span><a href=\"https://www.acpjournals.org/doi/10.7326/M14-1304\" target=\"_blank\">Ann Arbor Criteria</a><span>&nbsp;are an updated set of recommendations that define when use of an indwelling urinary catheter is appropriate for hospitalized medical patients.<br><br>​Please consider using a&nbsp;</span><a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/bladder_scanning_0.pdf\" target=\"_blank\">bladder scanner</a><span>&nbsp;(PDF) to assess and confirm urinary retention, prior to placing the catheter to release urine.&nbsp;</span>To review a synthesis of the literature, <a href=\"http://ovidsp.ovid.com/ovidweb.cgi?T=JS&amp;CSC=Y&amp;NEWS=N&amp;PAGE=fulltext&amp;D=ovft&amp;AN=00001786-200407000-00003&amp;PDF=y\" target=\"_blank\">click here</a><span>.</span><span>​</span><br><br>​<strong>The following are&nbsp;<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/cautiguideline2009final.pdf\" target=\"_blank\">appropriate indications</a>*&nbsp;(PDF)&nbsp;for placing indwelling urinary catheters:</strong><ul><li><em>Acute urinary retention</em>:&nbsp; e.g., due to medication (anesthesia, opioids, paralytics), or nerve injury</li><li><em>Acute bladder outlet obstruction</em>: e.g., due to severe prostate enlargement, blood clots, or urethral compression</li><li>Need for&nbsp;<em>accurate measurements of urinary output in the critically ill</em></li><li>To assist in healing of&nbsp;<em>open sacral or perineal wounds in incontinent patients</em></li><li><em>To improve comfort for end of life</em>, if needed</li><li><em>Patient requires strict prolonged immobilization</em>&nbsp;(e.g., potentially unstable thoracic or lumbar spine, multiple traumatic injuries such as pelvic fracture)</li><li>Selected peri-operative needs:<ul><li>Urologic surgery or other surgery on contiguous (adjacent) structures of the genitourinary tract</li><li>Anticipated prolonged duration of surgery (Note: catheters placed for this reason should be removed in PACU)</li><li>Large volume infusions or diuretics anticipated during surgery</li><li>Need for intraoperative monitoring of urinary output</li></ul></li></ul> <span>*Based on the full text of the CDC HICPAC 2009 guidelines, available&nbsp;</span><a href=\"https://www.cdc.gov/infectioncontrol/pdf/guidelines/cauti-guidelines.pdf\" target=\"_blank\">here</a>&nbsp;(PDF)<span>.</span>",
+    "section": "iuc-indications",
+    "sectionOrder": 1,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Before placing an indwelling urinary catheter, please consider these alternatives which may be more appropriate:</strong><ul><li><em>Bedside commode, urinal, or continence garments:&nbsp;&nbsp;</em>to manage incontinence</li><li><em><a href=\"https://www.bladdersafe.org/bladder-scanner.html\" target=\"_blank\">Bladder scanner</a></em>: to assess and confirm urinary retention, prior to placing catheter to release urine</li><li><em><a href=\"https://www.bladdersafe.org/straight-catheter.html\" target=\"_blank\">Straight catheter:</a></em>&nbsp;for one-time, intermittent, or chronic voiding needs</li><li><em><a href=\"https://www.bladdersafe.org/external-catheter.html\" target=\"_blank\">External catheters</a></em>:&nbsp;appropriate for cooperative patients (men and women)&nbsp;without urinary retention or obstruction</li><li><a href=\"https://www.bladdersafe.org/toileting-program.html\" target=\"_blank\">Programmed Toileting</a>: behavioral therapy</li><li><a href=\"https://www.bladdersafe.org/suprapubic-catheter.html\" target=\"_blank\">Suprapubic catheter</a>: surgically insert into bladder through an incision above the pubis</li></ul>",
+    "section": "iuc-alternatives",
+    "sectionOrder": 1,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 2
+  },
+  {
+    "html": "Aseptic technique is strongly recommended during the insertion of indwelling urinary catheters, based on biologic principles, the pathogenesis of catheter-associated urinary tract infection (CAUTI), and the growing prevalence of multidrug-resistant organisms.<br><br>A recent analysis of patient safety practices by the Agency for Healthcare Research and Quality emphasized the important role of nurses in preventing CAUTI, the most common healthcare-associated infection. While physicians and medical students occasionally insert indwelling urinary catheters, nurses are generally responsible for the insertion and maintenance of urinary catheters; unlicensed personnel may also insert indwelling catheters under the direction of registered nurses. As part of their nursing education, student nurses are taught catheter insertion practices through simulation and clinical experiences. Once out of school, nurses refine their catheter insertion practices in the practice setting, where they tend to develop practice skills similar to those of other nurses with whom they work.<br><br>Anecdotal evidence – coupled with preliminary observations done by the University of Michigan CAUTI research group – reveal that proper aseptic technique is not reliably used when indwelling urinary catheters are inserted.<br>​<br>In this section we provide several resources related to aseptic insertion for anyone inserting an indwelling urinary catheter in&nbsp;<a href=\"http://www.nejm.org/doi/full/10.1056/NEJMvcm054648\" target=\"_blank\">male</a>&nbsp;or&nbsp;<a href=\"http://www.nejm.org/doi/full/10.1056/NEJMvcm0706671\" target=\"_blank\">female</a>&nbsp;patients: nurses, physicians, medical students and unlicensed healthcare personnel. &nbsp; Some resources are in the form of written documents, while others are web-based.",
+    "section": "iuc-aseptic",
+    "sectionOrder": 1,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 3
+  },
+  {
+    "html": "The risk of infection increases by 5% for each day that a catheter remains in place, and the length of time that a catheter remains in place is the most important risk factor for the development of catheter-associated urinary tract infection.&nbsp; Up to half of patients with an indwelling catheter for 5 days or longer will have bacteria or fungus in their urine.<br><br>Therefore, once an indwelling urinary catheter is inserted, <a href=\"http://ovidsp.ovid.com/ovidweb.cgi?T=JS&amp;CSC=Y&amp;NEWS=N&amp;PAGE=fulltext&amp;D=ovft&amp;AN=00152192-200711000-00012&amp;PDF=y\" target=\"_blank\">ongoing vigilance</a> (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18030105\" target=\"_blank\">abstract</a>)&nbsp;is needed&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27820018\" target=\"_blank\">to reduce the risks</a>&nbsp;of both infectious and non-infectious complications. Many times physicians are not aware that patients’ urinary catheters are&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11042237\" target=\"_blank\">still in place</a>, so we begin this section with assessment strategies to maintain awareness of catheter presence and determine the ongoing need for an indwelling catheter.<br>​<br>In this section we also provide evidence-based guidance for catheter care and securement, drainage, transportation with a catheter, and talking points for patients and families related to indwelling urinary catheters. While it is better for the patient not to have an indwelling urinary catheter at all, when catheters&nbsp;<em>are</em>&nbsp;necessary our recommendations in this section will help minimize risks associated with catheter use.",
+    "section": "iuc-maintenance",
+    "sectionOrder": 1,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 4
+  },
+  {
+    "html": "<span>Urinary catheters are often&nbsp;</span><a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15175612\" target=\"_blank\">placed unnecessarily</a><span>,&nbsp;</span>remain in place<span>&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11042237\" target=\"_blank\">without physician&nbsp;awareness</a>, and are&nbsp;</span><a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18700831\" target=\"_blank\">not removed promptly</a><span>&nbsp;when no longer needed. Prolonged&nbsp;catheterization is the strongest risk factor for catheter-associated urinary tract&nbsp;infection (CAUTI). &nbsp;</span><a href=\"https://academic.oup.com/cid/article/51/5/550/333837/Systematic-Review-and-Meta-Analysis-Reminder\" target=\"_blank\">Promptly removing unnecessary catheters</a><span>&nbsp;(<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20673003\" target=\"_blank\">abstract</a>) is an important step in&nbsp;reducing a patient’s risk of CAUTI. In most hospitals, 4 steps are required before a urinary catheter is removed:</span><ol><li>Physician recognizes that a urinary catheter is present</li><li>Physician recognizes that the urinary catheter is unnecessary</li><li>Physician writes the order for urinary catheter removal</li><li>Nurse removes the catheter in response to the physician’s order</li></ol><br><span>Thus, many hours and days can pass before a urinary catheter that is no longer&nbsp;necessary is recognized and removed; by default, urinary catheters usually remain in&nbsp;place until these steps occur. In contrast, using strategies to remind and prompt&nbsp;removal of unnecessary urinary catheters has the potential to bypass several of&nbsp;these steps, and reduce the occurrence of hospital-acquired catheter-associated&nbsp;urinary tract infections.</span><br><br>​<br><a href=\"https://academic.oup.com/cid/article/51/5/550/333837/Systematic-Review-and-Meta-Analysis-Reminder\" target=\"_blank\">Two types of reminder systems</a><span>&nbsp;(</span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20673003\" target=\"_blank\">abstract</a><span>)&nbsp;have been studied:</span><ol><li>\"Reminders” function simply to remind the clinicians (physician and/or nurse)&nbsp;that a urinary catheter is still being used, and may provide an educational list of&nbsp;reasons to continue or discontinue the urinary catheter. \"Reminders” help&nbsp;bypass steps 1-2.</li><li>\"Stop orders” prompt the clinician to remove the catheter by default after a&nbsp;certain time period or a set of clinical conditions has occurred (such as 24 or&nbsp;48 hours post-operative) unless the catheter remains clinically appropriate.&nbsp;Stop orders \"expire” in the same fashion as restraint or antibiotic orders, unless&nbsp;action is taken by physicians.</li></ol>",
+    "section": "iuc-removal",
+    "sectionOrder": 1,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 5
+  },
+  {
+    "html": "<ul><li>Stop orders directed at physicians require an order to renew or&nbsp;discontinue on the basis of review at specific time intervals (bypassing steps 1-3).</li><li>Stop orders directed at nurses will empower nurses to remove the&nbsp;catheter on the basis of a list of indications, without requiring the nurse to obtain a physician-signed order before removing the catheter&nbsp;(bypassing steps 1-4).</li></ul>",
+    "section": "iuc-removal",
+    "sectionOrder": 2,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 5
+  },
+  {
+    "html": "<br>​<br><strong>​Challenges and pearls to keep in mind &nbsp;when implementing catheter removal &nbsp;strategies</strong><strong>:&nbsp;</strong><ul><li>Capitalize on \"nurse-to-nurse” communication at times of care transition &nbsp;(between shift and between units) as opportunities to reassess catheter need. &nbsp;Having a nurse champion on every shift may facilitate reassessment, &nbsp;especially if shift schedules make it difficult to share information.&nbsp;</li><li>Reminder system chosen should be tailored to the care setting (stickers, electronic, etc). &nbsp;Both low-tech and high-tech strategies have been effective.&nbsp;</li><li>Simple reminders are often ignored. &nbsp;It is challenging to sustain the impact of &nbsp;reminders.&nbsp;</li><li>If using electronic reminders/stop orders, make sure the reminder/stop order is&nbsp;directed at the primary team and not the consultants.&nbsp;</li><li>Using electronic catheter orders can increase catheter use inadvertently by&nbsp;making indwelling catheters easier to order than alternatives.</li><li>Physicians and/or nurses should document the rationale for leaving the&nbsp;catheter in if appropriate indications are not met. &nbsp; Documentation makes the&nbsp;rationale explicit and communicates it to the rest of the health care team.&nbsp;</li><li>Nurses may not be comfortable initially with the responsibility of removing&nbsp;urinary catheters without a physician order. &nbsp;Supportive nursing and physician&nbsp;leadership can help overcome nurses’ reluctance to act using nurse empowered orders.&nbsp;</li><li>Incontinence is a very tempting reason for placing a urinary catheter. &nbsp;Encourage bedside staff to avoid placing catheters for incontinence by&nbsp;providing other readily available strategies to manage incontinent patients,&nbsp;including bedside commodes, incontinence garments, condom catheters for&nbsp;male patients, and \"people power” to provide prompted toileting and bed linen&nbsp;changes. &nbsp;&nbsp;</li></ul>",
+    "section": "iuc-removal",
+    "sectionOrder": 3,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 5
+  },
+  {
+    "html": "Given the important clinical and economic consequences of catheter-associated urinary tract infection (CAUTI), researchers have tried novel approaches to prevent this common patient safety problem. While&nbsp;the primary preventive focus&nbsp;has been on avoiding the indwelling catheter, using alternatives to the indwelling catheter, and removing the indwelling catheter as soon as possible, investigators have also assessed whether antimicrobial catheters can prevent CAUTI. (See the \"CAUTI Prevention Practices\" section on the <strong>Overview tab,</strong> above.)<br><br>Several clinical and economic studies have evaluated antimicrobial urinary catheters, including&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11088092\" target=\"_blank\">individual trials</a>,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16418411\" target=\"_blank\">systematic reviews</a>&nbsp;and&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/9753027\" target=\"_blank\">meta-analyses</a>.&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10999983\" target=\"_blank\">Economic evaluations</a>&nbsp;are important to consider given the additional cost of antimicrobial catheter trays (approximately $5).<br><br>Different antimicrobial urinary catheters have been evaluated in patients over the past few decades, including silver (either alloy or oxide) and&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17785483\" target=\"_blank\">nitrofurazone-releasing</a>&nbsp;catheters.<br><br><a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18425896\" target=\"_blank\">A Cochrane Review of antimicrobial catheters</a>&nbsp;conducted in 2008 included 23 trials involving 5236 hospitalized adults in 22 parallel group trials. Schumm and Lam summarized their findings as follows: &nbsp;\"…Silver alloy (antiseptic) coated or nitrofurazone-impregnated (antibiotic) urinary catheters might reduce infections in hospitalized adults … but the evidence was weak.”…Larger, more scientifically rigorous, trials are needed on whether catheters impregnated with antibiotics or antiseptics reduce infection.”<br><br>A large and scientifically rigorous trial – involving 24 hospitals in the United Kingdom and about 7000 patients (most of whom were undergoing surgery) – was published in&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/23134837\" target=\"_blank\">The Lancet</a>. This randomized trial compared three different catheters – silver alloy, nitrofurazone-releasing, and a control (polytetrafluoroethylene–coated latex catheter) – and found no significant difference in rates of symptomatic CAUTI between the silver alloy and control catheters. There was a small decrease in rates of symptomatic CAUTI with the use of nitrofurazone-releasing catheters compared with control, however, this decrease was not deemed to be clinically important. The makers of the nitrofurazone-releasing catheter&nbsp;<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/rmc_foley_catheters_press_release_11.6.12.pdf\" target=\"_blank\">announced</a>&nbsp;(PDF) in 2012 that they will discontinue manufacturing and marketing the device.<br><br>An accompanying&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/23134836\" target=\"_blank\">editorial</a>&nbsp;provides a useful perspective on the limitations of this study as well as the role of antimicrobial catheters in patients at high-risk of&nbsp;CAUTI (e.g., neutropenic and severely immune-compromised patients).<br><br>​Currently, antimicrobial catheters are not recommended for routine use in hospitalized patients.&nbsp;",
+    "section": "iuc-antimicrobial",
+    "sectionOrder": 1,
+    "oldTabOrder": 2,
+    "oldSectionOrder": 6
+  },
+  {
+    "html": "Indwelling urinary catheters lead to both infectious and non-infectious complications. Despite these potential harms,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7794092\" target=\"_blank\">studies have found</a>&nbsp;that initial catheterization was inappropriate 21% to 50% of the time, and that continued catheter use was inappropriate almost half of the days that patients are catheterized.<br><br>A common reason for inappropriate continued catheter use is that physicians forget, or are never aware of, the presence of the catheter. In&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11042237\" target=\"_blank\">one multi-center evaluation</a>, inpatient physicians at 4 hospitals were asked whether or not each patient on their service had a urinary catheter in place.&nbsp; Incorrect negative responses were recorded for over one-third of attending physicians and more than a quarter of resident physicians. For inappropriately catheterized patients, the proportion of physicians unaware of the presence of a catheter was even higher (over 50% for attending physicians and over 40% of senior residents). These \"forgotten” catheters often remain in the patient until either a catheter-related complication occurs or the patient’s discharge is imminent.<br>​<br>Physicians should assess daily whether or not their catheterized patient still requires the catheter. While nursing involvement in catheter insertion, care, and removal is paramount, physicians also play an important role in prevention efforts. The physician champion – often an infectious diseases specialist, hospital epidemiologist, urologist, or hospitalist – can inform physicians about the planned prevention program, encourage support for the program, be available to answer questions, and help educate other physicians about the appropriate indications for catheter use.<br>Below, we provide specific strategies for engaging physicians in CAUTI prevention.",
+    "section": "engaging",
+    "sectionOrder": 1,
+    "oldTabOrder": 3,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "What do we mean by nurse engagement? Nurse engagement refers to a persistent, positive state of fulfillment experienced by nurses at work. When nurses are engaged they feel energetic and dedicated to their work. They become immersed in work activities. Engagement has also often been described as the opposite of burnout. However nurse engagement is defined,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19914479\" target=\"_blank\">it refers to buy-in</a>, and in our case buy-in by nurses for the catheter-associated urinary tract infection (CAUTI) prevention program.<br><br>Getting nurses to buy-in to&nbsp;<em>any</em>&nbsp;new initiative can be challenging, but especially an initiative aimed at changing nursing practice. The question answered in this section is: how can nurses break their bond with the catheter?<br><br>In this section we offer numerous activities for bolstering nursing engagement. Many of the activities can be used throughout the hospital. Other activities may need to be tailored to specific nursing units, since local customs and traditions may help shape the CAUTI prevention program on a particular unit. A final group of activities are more comprehensive and may take longer to get under way, but we offer them as well, so that your organization has the full range of activities needed to get nurses excited about saying: \"Let’s get that catheter out!”<br><br>Below, we provide specific strategies for engaging nurses in CAUTI prevention.<br><span></span>",
+    "section": "engaging",
+    "sectionOrder": 1,
+    "oldTabOrder": 3,
+    "oldSectionOrder": 2
+  },
+  {
+    "html": "<a href=\"http://hbr.org/2007/01/leading-change-why-transformation-efforts-fail/ar/1\" target=\"_blank\">Implementing a change</a>&nbsp;in a clinical practice or process often requires overcoming certain&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19480375\" target=\"_blank\">barriers or challenges</a>. This section describes&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18462146\" target=\"_blank\">several common barriers</a>&nbsp;encountered by other hospitals when instituting changes related to the insertion and care of indwelling urinary catheters as well as the&nbsp;strategies they used to overcome those <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/barriers_solutions_table_toolkit.pdf\" target=\"_blank\">barriers</a> (PDF).<br><br>While the situation may not be exactly the same at your hospital, both the barriers described and the suggestions provided may be helpful in identifying potential solutions when challenges arise or for anticipating issues that may need to be addressed.<br><br>The literature on implementing evidence-based practices and practice guidelines may also provide valuable guidance. For example,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18789150\" target=\"_blank\">Francke and colleagues</a>&nbsp;(2008) examined 12 systematic reviews and identified the following categories as influencing guideline adherence: guideline characteristics, implementation strategies, professional autonomy, and patient and environment characteristics. In addition,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19155288\" target=\"_blank\">De Vos et al.</a>&nbsp;(2009) reviewed 21 studies and identified perceived barriers for quality initiatives including unawareness, lack of credible data, lack of management support for physicians, and lack of resources. Facilitating factors included supportive or collaborative management, administration support, and use of detailed and credible feedback data.<br>​<br>Lastly, theoretical perspectives may also be valuable in implementing evidence-based practice and practice guidelines (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20647785\" target=\"_blank\">Gurses 2010</a>,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15012583\" target=\"_blank\">Grol and Wensing 2004</a>). Some of the useful frameworks are:<ul><li>The theories of&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7581733\" target=\"_blank\">diffusion of innovation</a>,&nbsp;<a href=\"http://www.nap.edu/openbook.php?record_id=10027&amp;page=309\" target=\"_blank\">complex adaptive systems</a>, and&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed?term=11743481\" target=\"_blank\">planned behavior</a>,</li><li>The&nbsp;<a href=\"http://lgreen.net/precede.htm\" target=\"_blank\">PRECEDE-PROCEED</a>&nbsp;(Predisposing, Reinforcing, and Enabling Constructs in Ecosystem Diagnosis and Evaluation for Policy, Regulation or Resourcing, and Organizing for Educational and Environmental Development) model,&nbsp;</li><li>The&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20333911\" target=\"_blank\">TRIP</a>&nbsp;(Translating Research Into Practice) model,</li><li>The&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21249813\" target=\"_blank\">RE-AIM</a>&nbsp;model (Reach, Efficacy/Effectiveness, Adoption, Implementation, and Maintenance)&nbsp;model,</li><li>The&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed?term=18468362\" target=\"_blank\">PRISM</a>&nbsp;(Practical, Robust Implementation and Sustainability Model) model, and</li><li>The&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10185141\" target=\"_blank\">PARIHS</a>&nbsp;(Promoting Action on Research Implementation in Health Services) model, and&nbsp;</li><li>The&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2736161/\" target=\"_blank\">CFIR</a>&nbsp;(Consolidated Framework For Implementation Research) model.</li></ul>",
+    "section": "barriers",
+    "sectionOrder": 1,
+    "oldTabOrder": 3,
+    "oldSectionOrder": 3
+  },
+  {
+    "html": "Increasingly, healthcare leaders are focusing their attention on preventing healthcare-associated infection. Indeed,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20658939\" target=\"_blank\">empiric work from 2010</a>&nbsp;demonstrates that certain characteristics of leaders (the term \"leader” was applied broadly) were used by those perceived as being effective in implementing evidence-based infection prevention recommendations. Specifically, successful leaders tended to insist on a culture of clinical excellence which they instill through effective communication, thinking strategically while acting locally, inspiring staff, and taking a solutions-oriented approach to overcoming barriers. Importantly, some of the most important leaders in infection prevention activities are not senior executives. Examples abound of infection prevention personnel – hospital epidemiologists and infection preventionists – who play crucial leadership roles in their hospital’s patient safety activities.<br><br>One important way to engage healthcare leaders – especially those in senior positions – in the topic of healthcare-associated infection prevention is through familiarity with the policy changes&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2754265/\" target=\"_blank\">from 2009 by the Center for Medicare and Medicaid Services (CMS)</a>&nbsp;that affect hospital reimbursement if adverse events occur during hospitalization. In brief, since October 2008, hospitals are no longer eligible for additional payment from CMS to treat several common and/or high morbidity hospital-acquired complications,&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19194330\" target=\"_blank\">such as catheter-associated urinary tract infections</a>&nbsp;and pressure ulcers.&nbsp; This same policy has also facilitated and encouraged public reporting of hospital-acquired condition events – another topic of high interest to healthcare leaders.&nbsp;&nbsp; Therefore, this&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19738267\" target=\"_blank\">single policy regarding</a>&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19738268\" target=\"_blank\">non-payment of hospital-acquired conditions</a>&nbsp;may engage the interest of healthcare leaders along the lines of financial implications, patient safety, and public reporting.&nbsp;",
+    "section": "policy",
+    "sectionOrder": 1,
+    "oldTabOrder": 3,
+    "oldSectionOrder": 4
+  },
+  {
+    "html": "​<span>We began our work over 10 years ago, and through our research we have identified key elements for developing a comprehensive program to reduce indwelling urinary catheter use and reduce CAUTI. A general overview for developing a program to reduce CAUTI can be found&nbsp;</span>via the button below<span>.&nbsp;That document also includes a sample assessment tool and table outlining implementation team roles and responsibilities with suggestions for the type of personnel to be considered.<br><br>​Program development and implementation follows, in part, the 4 E’s model developed by Pronovost and colleagues for translating evidence into practice. A description of the application of this model has been&nbsp;</span><a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20929360\" target=\"_blank\">published</a><span>.</span>",
+    "section": "implementation",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<span>We suggest that you begin by targeting one or two units for improvement. The units chosen should have the combination of a higher than average (for your institution) prevalence of Foley (urinary) catheters along with staff that are engaged and willing to support a catheter use improvement project. By implementing a pilot program on one or two units to start, the project is not only more manageable, but also allows you to make adjustments if needed before expanding the scope of the project to other units.<br><br>​The section on </span><strong><font size=\"4\">Tracking Performance</font></strong>&nbsp;section (below) has resources that<span>&nbsp;describe<font size=\"4\">&nbsp;</font></span><em><font size=\"4\">what&nbsp;</font></em><span>to measure and<font size=\"4\">&nbsp;</font></span><em><font size=\"4\">how</font></em><span><font size=\"4\">&nbsp;</font>to collect the data.</span>",
+    "section": "assessment",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 2
+  },
+  {
+    "html": "<span>A key aspect of implementing a ‘catheter out’/CAUTI prevention program is to identify an implementation team at your site. This team plays a critical role in developing the program and assisting with program implementation. One strategy for assembling this team is to first determine the roles and responsibilities of the team members and then identify personnel to fill those roles.<br><br>Some key roles include: project coordinator, nurse champion, and physician champion. In general, these \"champion” roles have been effective when they engage at a unit-based, direct-care personnel level. Key responsibilities are: education, data collection, and evaluation. Individuals can fill more than one role and some may be short-term and others longer-term. The infection preventionist may have served as a subject matter expert on prevention of CAUTI so it is important that they be a member of the team. However, it is also important to include the unit leadership champions because they can resonate with direct care personnel and, therefore, can impact care processes.</span>",
+    "section": "team",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 3
+  },
+  {
+    "html": "<span>This toolkit provides materials and information to reduce indwelling urinary catheter use and CAUTI among hospitalized adult patients. However, because each hospital or even each unit within a hospital may be different it is important to recognize that the materials and plan for using these materials needs to be customized for your hospital or setting. This customization process is one of the responsibilities of the implementation team because the individuals on this group are the most likely to have insights about what may or may not work in your hospital.<br><br>Factors to consider in the customization process include: current policies and procedures, resources, patient population and the involved personnel. Use the materials in this toolkit as a template, but be creative and construct a program that will be successful and lead to a sustainable reduction in catheter use at your institution. The materials found in </span><a href=\"https://www.bladdersafe.org/detailed-protocols.html\" target=\"_blank\">Detailed Protocols</a><span>&nbsp;can also be used as a standard approach that may require little or minimal customization at some hospitals.</span>",
+    "section": "customizing",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 4
+  },
+  {
+    "html": "Changing practice patterns is hard! Busy nurses and physicians often feel overwhelmed and because new initiatives in healthcare seem to come and go, they may not want to commit to an initiative that they believe will add to their workload, only to fade away a few months later. The sections found under <strong><font size=\"4\">Engaging Providers</font></strong> tab (above)<em>&nbsp;</em>offer many useful suggestions and strategies to enlist the support and buy-in of clinical and non-clinical staff, so that they will willingly embrace the change. There is even a troubleshooting guide – a table of barriers and possible solutions – to help you get over common hurdles. In the <a href=\"https://www.bladdersafe.org/research.html\">Research</a> section we provide access to abstracts and, where possible, complete articles so that you’ve got the facts to back you up.",
+    "section": "getting-ready",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 5
+  },
+  {
+    "html": "<span>Collecting, analyzing and reporting information on your primary outcomes of interest is critical as you begin your program and to ensure continued success. For example, measuring indwelling urinary catheter use rates can provide important information for identifying the units in which to begin your program, while continued assessments can be used to encourage staff and to help maintain observed improvements. This</span><span>&nbsp;section of the toolkit contains a number of suggestions and tools to assist you with determining what outcomes to measure, how to collect data, and strategies for constructing effective feedback for clinical staff.<br><br>​</span><span>Collecting data is critically important for understanding whether or not your facility has an unacceptably high number of patients with indwelling urinary catheters without an appropriate indication. Collecting and comparing data both before and after an intervention will provide a relatively objective way to evaluate if your interventions are successful in reducing unnecessary catheter-days and subsequent catheter-associated urinary tract infection (CAUTI). Occasional assessments, done after the initial intervention and compared to historical trends from the same unit, will allow you to assess if the intervention has been sustained.</span><br><span>​</span><br><span>In this section, we provide several examples of the many data collection tools you can use. These examples are taken from multiple sites, including some that have been initially developed and implemented at St. John Hospital and Medical Center in Detroit, Michigan. You may decide to modify these tools or use a different option altogether. Whichever tools you decide to use, it is important to apply a consistent approach to data collection at all stages of your prevention program, so that you can compare across time periods and units.</span>",
+    "section": "tracking",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 6
+  },
+  {
+    "html": "<span>Once indwelling catheter use and catheter-associated urinary tract infection rates have substantially decreased, you’ll want to know how to keep these rates low.&nbsp; Suggestions and tools under the&nbsp;</span><strong>Educational Tools</strong>&nbsp;<strong>tab</strong> above&nbsp;<span>may be helpful with broadly circulating the message that your organization is serious about reducing CAUTI.<br><br>​And speaking of education, why not disseminate how well your organization has managed to reduce and possibly eliminate the most common of all healthcare-associated infections? Reducing CAUTI can become a source of organizational pride and possibly lead to a reduction in other infections as well.</span>",
+    "section": "sustainability",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 7
+  },
+  {
+    "html": "<span>Sometimes one picture is worth a thousand words, so please see our figure detailing the steps in developing a comprehensive CAUTI reduction</span><span>.<br></span>",
+    "section": "implementation-figure",
+    "sectionOrder": 1,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 8
+  },
+  {
+    "html": "<span>​Sometimes examples of what others have done are also useful. In the&nbsp;</span><a href=\"https://www.bladdersafe.org/detailed-protocols.html\" target=\"_blank\">Detailed Protocols</a><span>&nbsp;section are two detailed protocols, one designed to reduce CAUTI </span>in the emergency department<span>, and another designed for nurses to lead and to reduce CAUTI </span>in non-intensive care units<span>.</span>",
+    "section": "implementation-figure",
+    "sectionOrder": 2,
+    "oldTabOrder": 4,
+    "oldSectionOrder": 8
+  },
+  {
+    "html": "<strong>Bladder Scan (Intermittent Straight Catheter)&nbsp;</strong><strong>Algorithm</strong><br><font size=\"2\"><span>&nbsp; &nbsp;Mohamad Fakih, MD, MPH</span></font><br>&nbsp; &nbsp; &nbsp; &nbsp; <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/bladder_scanning_0.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 1,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Ensuring Sustainability for Safety a</strong><strong>nd Quality Impr</strong><strong>ovement Efforts</strong><br><font size=\"2\"><span>&nbsp; &nbsp;Mohamad Fakih, MD, MPH</span></font><br><span><font size=\"2\">&nbsp; &nbsp;Sarah Krein, RN, PhD</font></span><br>&nbsp; &nbsp; &nbsp; &nbsp; <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/sustainability.pptx\" target=\"_blank\">Powerpoint</a> or <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/sustainability.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 2,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Controversies in CAUTI Prevention</strong><br><font size=\"2\">&nbsp; &nbsp;Mohamad Fakih, MD, MPH</font><br>​<span>&nbsp; &nbsp; &nbsp; &nbsp; <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/controversies_in_cauti_prevention.pdf\" target=\"_blank\">PDF</a></span>",
+    "section": "presentations",
+    "sectionOrder": 3,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Engaging Clinicians in CAUTI Prevention: Tales from the Trenches</strong><br><span><font size=\"2\">Sanjay Saint, MD, MPH</font></span><br><span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/syllabus_saint_mha_may_3_engaging_clinicians_4-24-12.pptx\" target=\"_blank\">Powerpoint</a> or <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/syllabus_saint_mha_may_3_engaging_clinicians_4-24-12.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 4,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Appropriate Urinary Catheter Use and Management: &nbsp;Nursing Education Material</strong><br><span><font size=\"2\">Mohamad Fakih, MD, MPH</font></span><br><span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/section_t_nursing_appropriateurinary_catheter_use_and_management_0.ppt\" target=\"_blank\">Powerpoint</a> or <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/section_t_nursing_appropriateurinary_catheter_use_and_management_0.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 5,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Preventing Catheter-Associated Urinary Tract Infection: &nbsp;Translating Research Into Practice</strong><br><span><font size=\"2\">Sanjay Saint, MD, MPH</font></span><br><span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/saint_trip_12-20-10.pptx\" target=\"_blank\">Powerpoint</a> or <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/saint_trip_12-20-10.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 6,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Implementing Strategies to Reduce Hospital-Acquired Catheter-Associated Urinary Tract Infection</strong><br><span><font size=\"2\">Jennifer Meddings, MD, MSc</font></span><br><span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/meddings_cauti_june2010_wocntalk_june15_final_0.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 7,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Targeted Infection Prevention Program Study: The Infectious Disease Process &amp; Chain of Cross Transmission</strong><br><font size=\"2\"><span>Ruth Ann Rye, RN, BS</span></font><br><font size=\"2\">Russ Olmsted, MPH, CIC</font><br>​<span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/module_2_chain_of_trans.ppt\" target=\"_blank\">Powerpoint</a> or <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/module_2_chain_of_trans.ppt\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 8,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Outcome Data: Application of NHSN CAUTI Criteria</strong><br><span><font size=\"2\">On the Cusp: Stop HAI</font><br>​</span><span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<span><a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/bridson_lassiter_cauti_training_052912.pdf\">PDF</a></span>",
+    "section": "presentations",
+    "sectionOrder": 9,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Focusing on Appropriate Catheter Insertion</strong><br><font size=\"2\"><span>Milisa Manojlovich PhD, RN, CCRN</span></font><br><span><font size=\"2\">Sarah Krein, PhD, RN</font><br>​</span><span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<span><a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/focusing_on_appropriate_catheter_insertion.pdf\" target=\"_blank\">PDF</a></span>",
+    "section": "presentations",
+    "sectionOrder": 10,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Catheter-Associated Urinary Tract Infection (CAUTI): Progress Toward Zero</strong><br><font size=\"2\">Jennifer Meddings, MD, MSc</font><br><span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/2205_meddings_cauti_progress_toward_zero_june4_final.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 11,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "<strong>Preventing Catheter-Associated Urinary Tract Infection: Disrupting the Lifecycle of the Urinary Catheter</strong><br><font size=\"2\">Jennifer A. Meddings, MD, MSc</font><br>​<span>​</span><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>​<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/2600_meddings_disruptinglifecycleofuc_june4_2012_final.pdf\" target=\"_blank\">PDF</a>",
+    "section": "presentations",
+    "sectionOrder": 12,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 1
+  },
+  {
+    "html": "Fliers and pocket cards can be useful tools to frequently remind care givers about appropriate indications and early removal of indwelling urinary catheters. This tab contains several examples of fliers that can be posted on your local bulletin boards, adapted for use as computer screensavers, or utilized as pocket cards that staff can carry with them anywhere. Any of the materials in this tab can be used exactly as they appear or could be adapted for your local institution. These tools can be used to publicize and disseminate your local indwelling urinary catheter removal message to physicians, nurses, aides and other staff involved in the insertion and care of indwelling urinary catheters!<br>​<br>Below are several different examples you might wish to use.",
+    "section": "fliers-cards",
+    "sectionOrder": 1,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 2
+  },
+  {
+    "html": "The brochure entitled, \"<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/patient_brochure_christine_7.24.10.docx\" target=\"_blank\">What Patients and Family Members Need to Know About the Risks Associated with Urinary Catheters</a>” (Microsoft Word, or <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/patient_brochure.pdf\" target=\"_blank\">PDF</a>) can be very helpful in situations where there are frequent patient or family requests for a urinary catheter without an appropriate indication. Educating patients and their family members about the importance of urinary catheter risks can be an important way to reduce the unnecessary use of urinary catheters. The brochure was authored by: Christine Kowalski, MPH, Mohamad Fakih, MD, MPH, Sarah Krein, PhD, RN, Russ Olmsted, MPH, CIC, and Sanjay Saint, MD, MPH. &nbsp;(The file is in Microsoft Word format to allow local sites to add names of their own staff as desired.)<br><br>The one page sheet entitled,&nbsp;<a href=\"http://catheterout.org/sites/webservices.itcs.umich.edu.drupal.Bladder%20Bundle/files/Tab%20P%20part%20III%20CAUTI%20for%20patients_SHEA.pdf\" target=\"_blank\">\"</a><a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/tab_p_part_iii_cauti_for_patients_shea.pdf\" target=\"_blank\">FAQs about Catheter-Associated Urinary Tract Infections</a>,” (PDF) provides patients with a good overview of urinary catheters as well as catheter-associated urinary tract infections and how patients can safely care for their urinary catheter. This sheet is distributed by SHEA, et. al. and is also available online.",
+    "section": "patient-family",
+    "sectionOrder": 1,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 3
+  },
+  {
+    "html": "Alternatives to Indwelling Catheters&nbsp;(handout, <a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/alternatives_to_indwelling_catheter_use_3_29.pdf\" target=\"_blank\">PDF</a>)",
+    "section": "clinician",
+    "sectionOrder": 1,
+    "oldTabOrder": 5,
+    "oldSectionOrder": 4
+  },
+  {
+    "html": "Since more than half of hospital admissions come through the&nbsp;Emergency Department (ED),&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20370769\" target=\"_blank\">avoiding placement</a>&nbsp;of unnecessary urinary catheters in the ED may significantly reduce catheter use among hospitalized patients.<br><br>The main goal is to promote placement of urinary catheters based on appropriate indications and compliance with aseptic insertion technique. The process includes establishing clear guidelines for urinary catheter use, adopting guidelines by the ED, engaging ED&nbsp;physicians and nurses, and educating them on appropriate&nbsp;indications and aseptic insertion technique. Having champions&nbsp;from the ED – ideally, a nurse and physician – will be extremely&nbsp;helpful in your improvement efforts.<br><br>Evaluation of continued need of the catheter is encouraged prior to patient transfer from the ED to other hospital units. &nbsp;Indications for urinary catheter use are based on the&nbsp;<a href=\"https://www.cdc.gov/infectioncontrol/guidelines/cauti/index.html\" target=\"_blank\">2009 Healthcare Infection Control Practices Advisory Committee (HICPAC) guidelines</a>&nbsp;(<a href=\"https://www.cdc.gov/infectioncontrol/pdf/guidelines/cauti-guidelines.pdf\" target=\"_blank\">PDF</a>).",
+    "section": "detailed-protocols",
+    "sectionOrder": 1,
+    "oldTabOrder": null,
+    "oldSectionOrder": null
+  },
+  {
+    "html": "In non-intensive care units the goal is to have the patient's bedside nurse, as part of the daily nursing assessment, note the urinary catheter's presence and evaluate whether or not the catheter is still indicated. Educating nurses about appropriate urinary catheter use during nursing rounds is central to success. The process&nbsp;<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18700831\" target=\"_blank\">includes a unit champion</a>&nbsp;(usually a nurse) who rounds with nurses directly involved in patient care. During nursing rounds, the champion and nurses assess all patients for urinary catheter presence by asking: Does the patient have a urinary catheter? If so, what is the reason for use?<br><br>If the patient has a urinary catheter, the champion reviews reasons for use with the nurse caring for the patient. Appropriate indications are based on the&nbsp;<a href=\"https://www.cdc.gov/infectioncontrol/guidelines/cauti/index.html\" target=\"_blank\">2009 Healthcare Infection Control Practices Advisory Committee (HICPAC) guidelines</a>&nbsp;(<a href=\"https://www.cdc.gov/infectioncontrol/pdf/guidelines/cauti-guidelines.pdf\" target=\"_blank\">PDF</a>). If there are no valid indications for the urinary catheter, the unit champion asks the patient’s nurse to contact the physician to discontinue the urinary catheter. The nurse is coached to own the assessment of whether the catheter is indicated, and the ongoing need for the catheter.<br><br>The expected intermediate outcome is a reduction in inappropriate placement and continued use of urinary catheters. Reducing inappropriate placement and use will likely reduce the risk of hospital-acquired urinary tract infections. Additionally, reducing the use of the indwelling catheter will decrease the&nbsp;non-infectious complications&nbsp;of urinary catheter use.<br>​<br>In this&nbsp;<a href=\"https://www.bladdersafe.org/uploads/5/6/5/0/56503399/nurse-initiated_removal_tab_s.pdf\" target=\"_blank\">manual</a>&nbsp;(PDF), you will find the detailed information necessary to implement this program.",
+    "section": "detailed-protocols",
+    "sectionOrder": 2,
+    "oldTabOrder": null,
+    "oldSectionOrder": null
+  }
+]
