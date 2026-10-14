@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="timestamp" content="2026-10-14T06:39:05.805Z">
+  <title>CAUTI GPS</title>
+</head>
+<body>
+  <main>
+    <article>
+      <h2>CAUTI GPS</h2>
+      <link rel="stylesheet" href="common/gps.css" crossorigin="anonymous">
+      <div class="gps-wrapper">
+        <div class="submit-state">
+          <p id="submit-state-feedback">Loading...</p>
+        </div>
+        <div id="gps-response-feedback" class="gps-response-feedback" data-active="false">
+          <p id="gps-feedback">Loading...</p>
+        </div>
+        <form id="cauti-gps">
+          <div class="gps-questions">
+            <div class="controls-d">
+              <button type="button" id="test-form-guideline-concordant">GC</button>
+              <button type="button" id="test-form-random">50/50</button>
+              <button type="submit" id="process">Submit</button>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q1" 
+                  data-qindex="0" 
+                  data-qnum="1" 
+                  data-active="true">
+              <div class="b-container">
+                <button type="button" id="q1-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 1.</span>&nbsp;<span class="gps-question-text">Do you currently have a well functioning team (or work group) focusing on CAUTI prevention?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q1-response" id="q1-yes" value="y" />
+                      <label for="q1-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q1-response" id="q1-no" value="n" />
+                      <label for="q1-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q1-guide-yes">You have a well functioning team focusing on CAUTI prevention. This is very helpful since this team is vital in developing a CAUTI prevention program and assisting with program implementation. Be sure to use your team to its full capacity.</span>
+                <span data-key="q1-guide-no">You either don’t have a team or the one you have does not function well. A key aspect of implementing a ‘catheter out’/CAUTI prevention program is to identify an implementation team at your site. This team plays a critical role in developing the program and assisting with program implementation. Key responsibilities of this team are education, data collection, and evaluation. Individuals can fill more than one role and some may be short-term and others longer-term.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q2" 
+                  data-qindex="1" 
+                  data-qnum="2" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q2-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 2.</span>&nbsp;<span class="gps-question-text">Do you have a project manager with dedicated time to coordinate your CAUTI prevention activities?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q2-response" id="q2-yes" value="y" />
+                      <label for="q2-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q2-response" id="q2-no" value="n" />
+                      <label for="q2-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q2-guide-yes">You have a project manager who has dedicated time to work on the CAUTI prevention efforts. This is important to keep the project moving forward in a timely manner and to recognize and address barriers and challenges as they come up. As they become involved with other projects make sure that time on this project remains protected.</span>
+                <span data-key="q2-guide-no">You either do not have a project manager or that the one you have does not have appropriate time for the project. The nuts and bolts of the CAUTI prevention program fall to the project manager. It is their responsibility to keep the project moving forward and coordinate the moving pieces. The CAUTI prevention initiative is unlikely to be their only responsibility and because of this there may not be enough time to devote to the project. Creating that dedicated time is imperative to a successful initiative.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q3" 
+                  data-qindex="2" 
+                  data-qnum="3" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q3-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 3.</span>&nbsp;<span class="gps-question-text">Do you have an effective nurse champion for your CAUTI prevention activities?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q3-response" id="q3-yes" value="y" />
+                      <label for="q3-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q3-response" id="q3-no" value="n" />
+                      <label for="q3-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q3-guide-yes">You have an effective nurse champion. This is key to the success of the initiative because it depends heavily on the nursing staff, especially those on the frontline. It is important that they remain engaged with the project as other projects come along, and if expanding the CAUTI prevention initiative to other units it is important to reassess if the current nurse champion is the best fit for these other units!</span>
+                <span data-key="q3-guide-no">You either do not have a nurse champion or that the one you have is not effective. Because the placement, management, and removal of indwelling urinary catheters falls under nursing responsibilities, “buy-in” from this group of healthcare providers is key. The nurse champion plays a large role in bringing the initiative to the nursing staff, modeling the positive excitement for the program, and problem solving as challenges arise.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q4" 
+                  data-qindex="3" 
+                  data-qnum="4" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q4-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 4.</span>&nbsp;<span class="gps-question-text">Do bedside nurses assess, at least daily, whether their catheterized patients still need a urinary catheter?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q4-response" id="q4-yes" value="y" />
+                      <label for="q4-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q4-response" id="q4-no" value="n" />
+                      <label for="q4-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q4-guide-yes">Bedside nurses assess the appropriateness of the indwelling catheter on at least a daily basis. The most significant risk factor for CAUTI is the length of time that the catheter remains in place. The reason for catheter necessity often changes from day to day, or even shift to shift, and it is key that nurses continually assess it’s appropriateness as part of their routine.</span>
+                <span data-key="q4-guide-no">Bedside nurses do not assess, at least daily, the continued appropriateness of the indwelling urinary catheter. Throughout a patient’s stay their need for the indwelling catheter is likely to change. Without continual reassessment for appropriateness, the catheter is likely to stay in beyond its necessity, the greatest risk for infection.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q5" 
+                  data-qindex="4" 
+                  data-qnum="5" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q5-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 5.</span>&nbsp;<span class="gps-question-text">Do bedside nurses take initiative to ensure the indwelling urinary catheter is removed when the catheter is no longer needed (e.g., by contacting the physician or removing the catheter per protocol)?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q5-response" id="q5-yes" value="y" />
+                      <label for="q5-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q5-response" id="q5-no" value="n" />
+                      <label for="q5-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q5-guide-yes">Bedside nurses take the initiative to have the indwelling urinary catheter removed when it is determined to be no longer appropriate. This is important to maintain and may require revisiting over time as staff, hospital procedures, technology, and daily responsibilities change.</span>
+                <span data-key="q5-guide-no">Bedside nurses do not take initiative to remove catheters when they are no longer appropriate. The number one risk factor for CAUTI is leaving the indwelling catheter in too long. If a nurse determines that a catheter is no longer appropriate, there must be a procedure in place to have it removed in a timely manner. Depending on the unit and hospital there are a variety of ways this can be accomplished.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q6" 
+                  data-qindex="5" 
+                  data-qnum="6" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q6-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 6.</span>&nbsp;<span class="gps-question-text">Do you have an effective physician champion for your CAUTI prevention activities?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q6-response" id="q6-yes" value="y" />
+                      <label for="q6-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q6-response" id="q6-no" value="n" />
+                      <label for="q6-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q6-guide-yes">You indicated that you have an effective physician champion on your team. Despite the initiative relying heavily on nursing efforts, physician awareness, engagement, and support is key for the success of the project. Your physician champion should continue to communicate with staff so that if an issue does arise they are aware of it as soon as possible.</span>
+                <span data-key="q6-guide-no">You indicated that you either do not have a physician champion or that the one you have is not effective. A successful CAUTI prevention initiative usually requires collaboration and cooperation between nurses and physicians. A physician champion is needed to bring the program to the other physicians, to help engage them, and to be a part of problem-solving when there is resistance or another challenge from this group of healthcare providers.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q7" 
+                  data-qindex="6" 
+                  data-qnum="7" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q7-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 7.</span>&nbsp;<span class="gps-question-text">Is senior leadership supportive of CAUTI prevention activities?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q7-response" id="q7-yes" value="y" />
+                      <label for="q7-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q7-response" id="q7-no" value="n" />
+                      <label for="q7-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q7-guide-yes">Your senior leadership is supportive of the CAUTI initiative. It is important to occasionally reassess this as new initiatives and priorities are constantly being introduced.</span>
+                <span data-key="q7-guide-no">You do not have the support of senior leadership. Given the many competing priorities of hospitals, having the support of leadership is key to making lasting progress with your CAUTI prevention initiative. Having a member of the hospital executive leadership team (often the chief nursing executive in this case) oversee the project lets the hospital staff know the importance of the initiative.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q8" 
+                  data-qindex="7" 
+                  data-qnum="8" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q8-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 8.</span>&nbsp;<span class="gps-question-text">Do you currently collect CAUTI-related data (e.g., urinary catheter prevalence, urinary catheter appropriateness, and infection rates) in the unit(s) in which you are intervening?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q8-response" id="q8-yes" value="y" />
+                      <label for="q8-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q8-response" id="q8-no" value="n" />
+                      <label for="q8-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q8-guide-yes">You currently collect CAUTI-related data. It is important to collect these measures as the project continues and once you have entered in to the sustainability phase. Discuss with the CAUTI prevention team if there are other measures that would be helpful to collect.</span>
+                <span data-key="q8-guide-no">You do not currently collect CAUTI related data. Collecting, analyzing and reporting information on your primary outcomes of interest is critical as you begin your program and to ensure continued success. For example, measuring indwelling urinary catheter use rates can provide important information for identifying the units in which to begin your program, while continued assessments can be used to encourage staff and to help maintain observed improvements.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q9" 
+                  data-qindex="8" 
+                  data-qnum="9" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q9-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 9.</span>&nbsp;<span class="gps-question-text">Do you routinely feedback CAUTI-related data to frontline staff (e.g., urinary catheter prevalence, urinary catheter appropriateness, and infection rates)?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q9-response" id="q9-yes" value="y" />
+                      <label for="q9-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q9-response" id="q9-no" value="n" />
+                      <label for="q9-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q9-guide-yes">You routinely provide feedback of CAUTI-related data to the frontline staff. No matter what stage of the initiative you are in, it is important to continue to provide this information. It is helpful to occasionally change how you communicate this data to the staff so that they continue to be engaged and motivated by it.</span>
+                <span data-key="q9-guide-no">You do not routinely feedback CAUTI-related data to frontline staff. While collecting CAUTI-related data is key to measuring the success of the intervention, it is imperative that the staff, especially those on the frontline are aware of it. The data can help motivate and engage the staff at all stages of the project, as well as encourage them to continue the changes for sustainability.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q10a" 
+                  data-qindex="9" 
+                  data-qnum="10A" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q10a-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 10A.</span>&nbsp;<span class="gps-question-text">Question 10A: Have you experienced substantial nursing resistance?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10a-response" id="q10a-yes" value="y" />
+                      <label for="q10a-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10a-response" id="q10a-no" value="n" />
+                      <label for="q10a-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q10a-guide-yes">You indicated that nursing resistance is a barrier that you face. Because the CAUTI prevention initiative relies heavily on their engagement it is imperative that you overcome this challenge. This is where an effective nurse champion is especially key.</span>
+                <span data-key="q10a-guide-no">You indicated that you have not experienced substantial nursing resistance. The nursing staff, especially those on the frontline, are key to a successful CAUTI prevention intervention. It is important to continue to keep the staff engaged in the initiative and over time as new people are hired and other initiatives and changes are implemented it will be important to continue ongoing communication with the staff.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q10b" 
+                  data-qindex="10" 
+                  data-qnum="10B" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q10b-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 10B.</span>&nbsp;<span class="gps-question-text">Question 10B: Have you experienced substantial physician resistance?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10b-response" id="q10b-yes" value="y" />
+                      <label for="q10b-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10b-response" id="q10b-no" value="n" />
+                      <label for="q10b-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q10b-guide-yes">You indicated that you have experienced substantial physician resistance. While change is often challenging, there are a number of strategies that can help you engage these physicians. An effective physician champion and a supportive leadership can make a big difference here.</span>
+                <span data-key="q10b-guide-no">You have indicated that you have not experienced significant resistance from the physicians in your unit/at your hospital. Despite the fact that the initiative relies heavily on nursing, resistance from physicians can be challenging, particularly in the decisions for insertion and the timely order for removal. As there are changes to staffing and the spread of the initiative beyond one unit, it is key to keep ongoing communication with physicians.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q10c" 
+                  data-qindex="11" 
+                  data-qnum="10C" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q10c-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 10C.</span>&nbsp;<span class="gps-question-text">Question 10C: Have you experienced patient and family requests for an indwelling urinary catheter?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10c-response" id="q10c-yes" value="y" />
+                      <label for="q10c-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10c-response" id="q10c-no" value="n" />
+                      <label for="q10c-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q10c-guide-yes">You have received requests from patients and family for an indwelling catheter. In these circumstances talking with them and offering some education about catheter appropriateness criteria, as well as the benefits and risks can overcome this barrier.</span>
+                <span data-key="q10c-guide-no">While patients and families don’t seem to request the placement of an indwelling urinary catheter, it is wise to be prepared for the possibility. Brochures and other patient education materials can be very helpful for explaining the benefits and risks of an indwelling catheter. Preparing the nurses with talking points and someone to call for support (e.g., the nurse champion) is important.</span>
+              </div>
+            </div>
+           <div class="gps-question" 
+                  data-qkey="q10d" 
+                  data-qindex="12" 
+                  data-qnum="10D" 
+                  data-active="false">
+              <div class="b-container">
+                <button type="button" id="q10d-result" class="gps-response" disabled>--</button>
+              </div>
+              <div class="q-container">
+                <p>
+                  <span class="gps-question-number">Question 10D.</span>&nbsp;<span class="gps-question-text">Question 10D: Have you experienced indwelling urinary catheters commonly being inserted in the emergency department without an appropriate indication?</span>
+                </p>
+                <div class="gps-question-responses">
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10d-response" id="q10d-yes" value="y" />
+                      <label for="q10d-yes">Yes</label>
+                    </span>
+                  </span>
+                  <span class="radio-group-box">
+                    <span class="radio-group">
+                      <input type="radio" name="q10d-response" id="q10d-no" value="n" />
+                      <label for="q10d-no">No</label>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="gps-guidance" data-active="false">
+                <span data-key="q10d-guide-yes">You have experienced the emergency department inserting indwelling urinary catheters without an appropriate indication. Given that the emergency department is very different from the other units of the hospital, changes in practice here requires a different approach.</span>
+                <span data-key="q10d-guide-no">You have not had indwelling urinary catheters inappropriately inserted in emergency department. This is great. Other places that commonly insert Foleys are the operating room and the intensive care units. It would be useful to look at these departments to determine if there are any ways to decrease catheter insertion and increase timely removal.</span>
+              </div>
+            </div>
+            <div class="controls">
+              <button type="submit" id="process">Check Responses Against Guidance</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <script src="common/gps.js" crossorigin="anonymous"></script>
+    </article>
+  </main>
+</body>
+</html>

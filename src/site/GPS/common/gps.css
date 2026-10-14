@@ -1,0 +1,367 @@
+:root {
+  --toggle-on-color: #00274c;
+  --toggle-on-text-color: #fdfdfd;
+  --toggle-off-color: #cbd5e1;
+  --toggle-off-text-color: #475569;
+
+  --black: #131516;
+  --accent-color: #3b82f6;
+  --focus-color: #3bc1f6;
+
+  --radio-border-hover-color: #cbd5e1;
+  --radio-border-color: #94a3b8;
+  --radio-label-text-color: #334155;
+
+  --feedback-success-color: lab(from #00ff00 l a b / 0.5);
+  --feedback-neutral-color: lab(from #ffff00 l a b / 0.5);
+  --feedback-error-color: lab(from #ff0000 l a b / 0.5);
+
+  --default-margins: 0.7em 1.2em;
+  --default-padding: var(--default-margins);
+  --default-border-radius: 12px;
+
+  --gps-radio-button-diameter: 1.25rem;
+  --gps-response-border: 2px groove var(--black);
+  --gps-response-button-min-size: 6rem;
+
+  --gps-wrapper-width: 90%;
+}
+
+body {
+  font-size: 18px;
+}
+
+button {
+  font: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --default-margins: 0.5em 0.9em;
+    --gps-radio-button-diameter: 1rem;
+    --gps-response-button-min-size: 4rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+.gps-wrapper {
+  border-radius: var(--default-border-radius);
+  color: inherit;
+  margin: 1em auto;
+  padding: var(--default-padding);
+  width: var(--gps-wrapper-width);
+
+  & > .gps-response-feedback {
+    position: fixed;
+    top: 20px;
+
+    background-color: var(--radio-border-hover-color);
+    border: var(--gps-response-border);
+    border-radius: var(--default-border-radius);
+    box-shadow: 
+      0.3em 0.3em 1em var(--feedback-error-color);
+    margin: var(--default-margins);
+    padding: var(--default-padding);
+    transition: 
+      background-color 0.5s ease,
+      box-shadow 0.5s ease;
+    width: 80ch;
+    z-index: 99;
+
+    &[data-active="false"] {
+      height: 0;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+      visibility: hidden;
+    }
+  }
+}
+
+.gps-questions {
+  display: flex;
+  flex-direction: column;
+}
+
+p:has(.gps-question-text) {
+  margin-block-start: 0;
+  text-indent: 6.5em hanging;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: center;
+  &:last-of-type {
+    margin-block-start: 1em;
+  }
+  & button[type="submit"] {
+    background-color: transparent;
+    border-radius: var(--default-border-radius);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+    margin: var(--default-margins);
+    padding: var(--default-padding);
+
+    transition: 
+      background-color 0.5s ease,
+      border-color 0.5s ease,
+      color 0.5s ease;
+
+    &:hover {
+      background-color: var(--toggle-on-color);
+      color: var(--toggle-on-text-color);
+    }
+  }
+}
+
+.controls-d {
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  visibility: hidden;
+}
+
+.gps-question {
+  border: 2px groove var(--toggle-off-text-color);
+  border-radius: var(--default-border-radius);
+}
+
+.gps-question, 
+.gps-question-responses {
+  margin: var(--default-margins);
+  padding: var(--default-padding);
+  transition: all 0.5s ease-out;
+}
+
+.gps-question {
+  display: grid;
+  place-items: start;
+  gap: 0 1em;
+  grid-template-areas:
+    "resp q"
+    ". guide";
+  grid-template-columns: fit-content(15%);
+  min-width: 40rem;
+
+  &:last-of-type {
+    padding-block-end: 1em;
+  }
+  & .q-container {
+    grid-area: q;
+  }
+  & .b-container {
+    display: grid;
+    place-content: center;
+
+    grid-area: resp;
+    
+    font-size: xx-large;
+    transition: 
+      background-color 0.5s ease,
+      color 0.5s ease;
+  }
+}
+
+.gps-question-number {
+  font-weight: bold;
+}
+
+.gps-response {
+  display: grid;
+  place-content: center;
+
+  aspect-ratio: 1 / 1;
+  min-width: var(--gps-response-button-min-size);
+
+  border: 1px dashed var(--toggle-off-text-color);
+  border-radius: var(--default-border-radius);
+  box-shadow: 3px 3px 3px lab(from var(--black) l a b / 0.5);
+  cursor: not-allowed;
+  user-select: none;
+  transition: 
+    background-color 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+.gps-response-match,
+.gps-response-mismatch {
+  border: var(--gps-response-border);
+  cursor: pointer;
+  margin-inline-end: 1em;
+}
+
+.gps-response-match {
+  background-color: greenyellow;
+}
+.gps-response-mismatch {
+  background-color: red;
+}
+
+.gps-guidance {
+  grid-area: guide;
+
+  display: flex;
+
+  align-self: center;
+  background-color: var(--radio-border-hover-color);
+  border-radius: var(--default-border-radius);
+  margin: var(--default-margins);
+  padding: var(--default-padding);
+
+  &[data-active="false"] {
+    height: 0;
+    width: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    visibility: hidden;
+  }
+
+  & > span {
+    height: 0;
+    width: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    visibility: hidden;
+
+    transition: 
+      background-color 0.5s ease,
+      color 0.5s ease;
+
+    &[data-active="true"] {
+      height: revert;
+      width: revert;
+      margin: revert;
+      overflow: revert;
+      padding: revert;
+      visibility: revert;
+    }
+  }
+}
+
+/** Radio Button Styling **/
+/* Base container styling */
+.radio-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  & + & {
+    margin-inline-start: 3em;
+  }
+}
+.radio-group-box {
+  border: 2px groove var(--toggle-off-text-color);
+  border-radius: var(--default-border-radius);
+  color: var(--black);
+  margin: var(--default-margins);
+  padding: var(--default-padding);
+  
+  cursor: pointer;
+  user-select: none;
+
+  transition: 
+    background-color 0.5s ease,
+    border-color 0.5s ease,
+    color 0.5s ease;
+}
+.radio-group-box:hover,
+.radio-group-box:has(input[type="radio"]:checked) {
+  background-color: var(--toggle-on-color);
+  color: var(--toggle-on-text-color);
+}
+.radio-group-box:hover label,
+.radio-group-box:has(input[type="radio"]:checked) label {
+  color: var(--toggle-on-text-color);
+}
+/* Custom Radio Styling */
+input[type="radio"] {
+  /* Remove default browser styles */
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  margin: 0;
+
+  /* Design the custom outer circle */
+  font: inherit;
+  color: var(--accent-color); /* Accent color */
+  width: var(--gps-radio-button-diameter);
+  height: var(--gps-radio-button-diameter);
+  border: 2px solid var(--radio-border-color); /* Default border color */
+  border-radius: 50%;
+  
+  /* Align it cleanly in line with text */
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+
+  /* Design the custom inner dot using a pseudo-element */
+  &::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-color: currentColor;
+  }
+
+  /* State changes */
+  &:hover,
+  .radio-group-box:hover & {
+    border-color: var(--radio-border-hover-color);
+  }
+
+  &:checked {
+    border-color: currentColor;
+  }
+
+  /* Show the inner dot when checked */
+  &:checked::before {
+    transform: scale(1);
+  }
+
+  /* Visual focus indicator for keyboard accessibility */
+  &:focus-visible {
+    outline: 2px solid var(--focus-color);
+    outline-offset: 2px;
+  }
+}
+/* Make the label clickable too */
+label {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.5s ease;
+}
+
+.submit-state {
+  height: 0;
+  width: 100%;
+  
+  position: relative;
+
+  border-block-start: 2em solid var(--black);
+  border-radius: var(--default-border-radius);
+  padding-block-end: 1em;
+
+  & > p {
+    position: absolute;
+    top: -2.75em;
+    left: 0;
+
+    color: var(--toggle-on-text-color);
+    font-weight: bold;
+    
+    text-align: center;
+    width: 100%;
+  }
+}

@@ -5,6 +5,14 @@
  * AUTHOR: jaen
  */
 
+/**
+ * Implements the `build` command line functionality.
+ * @param args request values provided to the `build` command
+ *               `media` operates on project media (see /Media/Media.json)
+ *                         `links` generates direct media links to Github based on 
+ *                                 actual files found under the /Media/ directory.
+ * @returns {void}
+ */
 async function build(...args: string[]): Promise<void> {
   const RAWROOT = "https://raw.githubusercontent.com/psep-patient-safety/bladdersafe.org/refs/heads/main/";
   const FINDROOT = "Media/";
@@ -12,7 +20,7 @@ async function build(...args: string[]): Promise<void> {
 
   const [domain, cmdArg] = args;
 
-  switch (domain.toLocaleLowerCase()) {
+  switch (domain?.toLocaleLowerCase()) {
     // Build the list of files under the Media/ directory.
     case "media": {
       if (cmdArg?.toLocaleLowerCase() === "links") {
@@ -49,18 +57,31 @@ async function build(...args: string[]): Promise<void> {
 }
 
 if (import.meta.main) {
-  const [cmd, cmdArg1, cmdArg2] = Deno.args;
+  const [cmd, args] = [Deno.args[0], Deno.args.slice(1)];
+  let exit = 0;
 
   if (cmd && cmd.length && cmd.length > 0) {
     switch (cmd.toLocaleLowerCase()) {
       case "build": {
-        build(cmdArg1, cmdArg2);
+        if (args && args.length && args.length > 1) {
+          build(...args);
+        } else {
+          console.error("[tasks.ts]", "Build requires 2 parameters.");
+          exit = 1;
+        }
         break;
       }
       default: {
-        console.error("[tasks.ts]", "Unhandled command input:", `cmd:"${cmd}"`, `cmdArg1:"${cmdArg1}"`, `cmdArg2:"${cmdArg2}"`);
-        Deno.exit(1);
+        console.error(
+          "[tasks.ts]", 
+          "Unhandled command input:", 
+          `cmd:"${cmd}"`, `args:${args?.map((a) => `"${a}"`)?.join(", ")}`
+        );
+        exit = 2;
       }
     }
   }
+
+  if (exit !== 0)
+    Deno.exit(exit);
 }

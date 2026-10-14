@@ -15,3 +15,6 @@ local/
 
 # VSCode config
 .vscode/
+
+# Generated project output
+dist/

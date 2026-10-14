@@ -1,0 +1,243 @@
+[
+  {
+    "qindex": null,
+    "qnum": null,
+    "qtext": "Over the past decade our multi-disciplinary research team has received funding support from the Department of Veterans Affairs (VA), the National Institutes of Health (NIH), and the Agency for Healthcare Research and Quality (AHRQ) to better understand why some hospitals are more successful than others in preventing device-associated infection. This work includes conducting qualitative assessments of a total of 43 hospitals across the United States. In total, we have conducted 400 interviews of personnel at various levels within the organizations, from chief executive officers to front-line nurses and physicians.\n\nFrom these interviews, we found that a handful of critical issues seemed to arise irrespective of a hospital’s location or size. While some were technical issues (collecting data and assessing catheter necessity), many were related to common barriers to effective CAUTI prevention (e.g., lack of a physician champion, nursing resistance, poor leadership support). Understanding that while useful, in person visits are both time-consuming and resource-intensive, we thus began work on a self-administered list of questions (The CAUTI Guide to Patient Safety, or “GPS”) that could be completed by key informants to help guide their hospital’s approach to CAUTI prevention. We developed the GPS initially for hospitals that have already initiated some CAUTI prevention activities, but have fallen short of their desired success. Having begun the implementation process, they are more likely to be aware of the challenges at their site.\n\nTo find out more about key aspects of CAUTI prevention and identify possible opportunities for improvement at your hospital, please see below.\n\nA full, PDF version of this GPS is also available, as is a PDF compilation of many of the resources available on this site.",
+    "responseOptions": [],
+    "guidanceResponse": null
+  },
+  {
+    "qindex": 0,
+    "qnum": "1",
+    "qtext": "Do you currently have a well functioning team (or work group) focusing on CAUTI prevention?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You have a well functioning team focusing on CAUTI prevention. This is very helpful since this team is vital in developing a CAUTI prevention program and assisting with program implementation. Be sure to use your team to its full capacity."
+      },
+      {
+        "response": "No",
+        "answer": "You either don’t have a team or the one you have does not function well. A key aspect of implementing a ‘catheter out’/CAUTI prevention program is to identify an implementation team at your site. This team plays a critical role in developing the program and assisting with program implementation. Key responsibilities of this team are education, data collection, and evaluation. Individuals can fill more than one role and some may be short-term and others longer-term."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 1,
+    "qnum": "2",
+    "qtext": "Do you have a project manager with dedicated time to coordinate your CAUTI prevention activities?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You have a project manager who has dedicated time to work on the CAUTI prevention efforts. This is important to keep the project moving forward in a timely manner and to recognize and address barriers and challenges as they come up. As they become involved with other projects make sure that time on this project remains protected."
+      },
+      {
+        "response": "No",
+        "answer": "You either do not have a project manager or that the one you have does not have appropriate time for the project. The nuts and bolts of the CAUTI prevention program fall to the project manager. It is their responsibility to keep the project moving forward and coordinate the moving pieces. The CAUTI prevention initiative is unlikely to be their only responsibility and because of this there may not be enough time to devote to the project. Creating that dedicated time is imperative to a successful initiative."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 2,
+    "qnum": "3",
+    "qtext": "Do you have an effective nurse champion for your CAUTI prevention activities?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You have an effective nurse champion. This is key to the success of the initiative because it depends heavily on the nursing staff, especially those on the frontline. It is important that they remain engaged with the project as other projects come along, and if expanding the CAUTI prevention initiative to other units it is important to reassess if the current nurse champion is the best fit for these other units!"
+      },
+      {
+        "response": "No",
+        "answer": "You either do not have a nurse champion or that the one you have is not effective. Because the placement, management, and removal of indwelling urinary catheters falls under nursing responsibilities, “buy-in” from this group of healthcare providers is key. The nurse champion plays a large role in bringing the initiative to the nursing staff, modeling the positive excitement for the program, and problem solving as challenges arise."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 3,
+    "qnum": "4",
+    "qtext": "Do bedside nurses assess, at least daily, whether their catheterized patients still need a urinary catheter?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "Bedside nurses assess the appropriateness of the indwelling catheter on at least a daily basis. The most significant risk factor for CAUTI is the length of time that the catheter remains in place. The reason for catheter necessity often changes from day to day, or even shift to shift, and it is key that nurses continually assess it’s appropriateness as part of their routine."
+      },
+      {
+        "response": "No",
+        "answer": "Bedside nurses do not assess, at least daily, the continued appropriateness of the indwelling urinary catheter. Throughout a patient’s stay their need for the indwelling catheter is likely to change. Without continual reassessment for appropriateness, the catheter is likely to stay in beyond its necessity, the greatest risk for infection."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 4,
+    "qnum": "5",
+    "qtext": "Do bedside nurses take initiative to ensure the indwelling urinary catheter is removed when the catheter is no longer needed (e.g., by contacting the physician or removing the catheter per protocol)?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "Bedside nurses take the initiative to have the indwelling urinary catheter removed when it is determined to be no longer appropriate. This is important to maintain and may require revisiting over time as staff, hospital procedures, technology, and daily responsibilities change."
+      },
+      {
+        "response": "No",
+        "answer": "Bedside nurses do not take initiative to remove catheters when they are no longer appropriate. The number one risk factor for CAUTI is leaving the indwelling catheter in too long. If a nurse determines that a catheter is no longer appropriate, there must be a procedure in place to have it removed in a timely manner. Depending on the unit and hospital there are a variety of ways this can be accomplished."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 5,
+    "qnum": "6",
+    "qtext": "Do you have an effective physician champion for your CAUTI prevention activities?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You indicated that you have an effective physician champion on your team. Despite the initiative relying heavily on nursing efforts, physician awareness, engagement, and support is key for the success of the project. Your physician champion should continue to communicate with staff so that if an issue does arise they are aware of it as soon as possible."
+      },
+      {
+        "response": "No",
+        "answer": "You indicated that you either do not have a physician champion or that the one you have is not effective. A successful CAUTI prevention initiative usually requires collaboration and cooperation between nurses and physicians. A physician champion is needed to bring the program to the other physicians, to help engage them, and to be a part of problem-solving when there is resistance or another challenge from this group of healthcare providers."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 6,
+    "qnum": "7",
+    "qtext": "Is senior leadership supportive of CAUTI prevention activities?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "Your senior leadership is supportive of the CAUTI initiative. It is important to occasionally reassess this as new initiatives and priorities are constantly being introduced."
+      },
+      {
+        "response": "No",
+        "answer": "You do not have the support of senior leadership. Given the many competing priorities of hospitals, having the support of leadership is key to making lasting progress with your CAUTI prevention initiative. Having a member of the hospital executive leadership team (often the chief nursing executive in this case) oversee the project lets the hospital staff know the importance of the initiative."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 7,
+    "qnum": "8",
+    "qtext": "Do you currently collect CAUTI-related data (e.g., urinary catheter prevalence, urinary catheter appropriateness, and infection rates) in the unit(s) in which you are intervening?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You currently collect CAUTI-related data. It is important to collect these measures as the project continues and once you have entered in to the sustainability phase. Discuss with the CAUTI prevention team if there are other measures that would be helpful to collect."
+      },
+      {
+        "response": "No",
+        "answer": "You do not currently collect CAUTI related data. Collecting, analyzing and reporting information on your primary outcomes of interest is critical as you begin your program and to ensure continued success. For example, measuring indwelling urinary catheter use rates can provide important information for identifying the units in which to begin your program, while continued assessments can be used to encourage staff and to help maintain observed improvements."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 8,
+    "qnum": "9",
+    "qtext": "Do you routinely feedback CAUTI-related data to frontline staff (e.g., urinary catheter prevalence, urinary catheter appropriateness, and infection rates)?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You routinely provide feedback of CAUTI-related data to the frontline staff. No matter what stage of the initiative you are in, it is important to continue to provide this information. It is helpful to occasionally change how you communicate this data to the staff so that they continue to be engaged and motivated by it."
+      },
+      {
+        "response": "No​",
+        "answer": "You do not routinely feedback CAUTI-related data to frontline staff. While collecting CAUTI-related data is key to measuring the success of the intervention, it is imperative that the staff, especially those on the frontline are aware of it. The data can help motivate and engage the staff at all stages of the project, as well as encourage them to continue the changes for sustainability."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "Yes"
+    }
+  },
+  {
+    "qindex": 9,
+    "qnum": "10A",
+    "qtext": "Question 10A: Have you experienced substantial nursing resistance?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You indicated that nursing resistance is a barrier that you face. Because the CAUTI prevention initiative relies heavily on their engagement it is imperative that you overcome this challenge. This is where an effective nurse champion is especially key."
+      },
+      {
+        "response": "No",
+        "answer": "You indicated that you have not experienced substantial nursing resistance. The nursing staff, especially those on the frontline, are key to a successful CAUTI prevention intervention. It is important to continue to keep the staff engaged in the initiative and over time as new people are hired and other initiatives and changes are implemented it will be important to continue ongoing communication with the staff."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "No"
+    }
+  },
+  {
+    "qindex": 10,
+    "qnum": "10B",
+    "qtext": "Question 10B: Have you experienced substantial physician resistance?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You indicated that you have experienced substantial physician resistance. While change is often challenging, there are a number of strategies that can help you engage these physicians. An effective physician champion and a supportive leadership can make a big difference here."
+      },
+      {
+        "response": "No",
+        "answer": "You have indicated that you have not experienced significant resistance from the physicians in your unit/at your hospital. Despite the fact that the initiative relies heavily on nursing, resistance from physicians can be challenging, particularly in the decisions for insertion and the timely order for removal. As there are changes to staffing and the spread of the initiative beyond one unit, it is key to keep ongoing communication with physicians."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "No"
+    }
+  },
+  {
+    "qindex": 11,
+    "qnum": "10C",
+    "qtext": "Question 10C: Have you experienced patient and family requests for an indwelling urinary catheter?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You have received requests from patients and family for an indwelling catheter. In these circumstances talking with them and offering some education about catheter appropriateness criteria, as well as the benefits and risks can overcome this barrier."
+      },
+      {
+        "response": "No",
+        "answer": "While patients and families don’t seem to request the placement of an indwelling urinary catheter, it is wise to be prepared for the possibility. Brochures and other patient education materials can be very helpful for explaining the benefits and risks of an indwelling catheter. Preparing the nurses with talking points and someone to call for support (e.g., the nurse champion) is important."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "No"
+    }
+  },
+  {
+    "qindex": 12,
+    "qnum": "10D",
+    "qtext": "Question 10D: Have you experienced indwelling urinary catheters commonly being inserted in the emergency department without an appropriate indication?",
+    "responseOptions": [
+      {
+        "response": "Yes",
+        "answer": "You have experienced the emergency department inserting indwelling urinary catheters without an appropriate indication. Given that the emergency department is very different from the other units of the hospital, changes in practice here requires a different approach."
+      },
+      {
+        "response": "No",
+        "answer": "You have not had indwelling urinary catheters inappropriately inserted in emergency department. This is great. Other places that commonly insert Foleys are the operating room and the intensive care units. It would be useful to look at these departments to determine if there are any ways to decrease catheter insertion and increase timely removal."
+      }
+    ],
+    "guidanceResponse": {
+      "response": "No"
+    }
+  }
+]

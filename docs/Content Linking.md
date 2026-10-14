@@ -11,3 +11,6 @@ https://raw.githubusercontent.com/psep-patient-safety/bladdersafe.org/refs/heads
 
 https://github.com/psep-patient-safety/bladdersafe.org/blob/main/Media/Resources/1.%20Overview/NHSN%20Urinary%20Tract%20Infection%20Jan%202026.pdf
 https://raw.githubusercontent.com/psep-patient-safety/bladdersafe.org/refs/heads/main/Media/Resources/1.%20Overview/NHSN%20Urinary%20Tract%20Infection%20Jan%202026.pdf
+
+
+See also: deno.json{task: "updog"}, /src/rebuild-2026
